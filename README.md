@@ -1,7 +1,7 @@
 # Flutter TicTacToe Game
 
 ## Work Progress
-- 2019/02/25 fork and modify to run the app by using linux launcher
+- 2019/02/25 fork [iampawan/FlutterTicTacToe](https://github.com/iampawan/FlutterTicTacToe) and modify it to run the app by using linux launcher
 
 
 
