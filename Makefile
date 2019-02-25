@@ -3,7 +3,7 @@
 #
 all: usage
 usage:
-	@echo "make [edit|build|run]"
+	@echo "make [edit|pkg|build|run]"
 
 edit e:
 	vi lib/main.dart
@@ -12,8 +12,10 @@ unzip:
 	unzip launcher/linux_launcher.zip
 	#unzip launcher/macos_launcher.zip
 
-build b:
+pkg p:
 	flutter packages get
+
+build b:
 	flutter build bundle
 
 debug:
