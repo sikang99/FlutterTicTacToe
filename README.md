@@ -1,5 +1,11 @@
 # Flutter TicTacToe Game
 
+## Work Progress
+- 2019/02/25 fork and modify to run the app by using linux launcher
+
+
+
+## Previous README
 Build legendary Tic Tac Toe game in flutter.
 
 ### Show some :heart: and star the repo to support the project

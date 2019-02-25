@@ -30,7 +30,7 @@ git g:
 	@echo ""
 
 git-update gu:
-	git add * lib/
+	git add *.md Makefile lib/ android/ ios
 	git commit -m "initial update commit"
 	git push -u origin master 
 
