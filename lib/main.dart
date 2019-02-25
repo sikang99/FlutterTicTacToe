@@ -6,7 +6,7 @@ import 'package:flutter/foundation.dart'
 //void main() => runApp(new MyApp());
 void main() {
   debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia; // for desktop embedder
-  runApp(MyApp());
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
