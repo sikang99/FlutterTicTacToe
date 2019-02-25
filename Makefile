@@ -8,9 +8,12 @@ usage:
 edit e:
 	vi lib/main.dart
 
+copy cp:
+	@ls -al ~/coding/dt/flutter-engine/launcher/*.zip
+	cp ~/coding/dt/flutter-engine/launcher/linux_launcher.zip .
+
 unzip:
-	unzip launcher/linux_launcher.zip
-	#unzip launcher/macos_launcher.zip
+	unzip linux_launcher.zip; rm -f linux_launcher.zip
 
 pkg p:
 	flutter packages get
@@ -22,7 +25,6 @@ debug:
 	flutter attach --device-id=flutter-tester --debug-port=49494
 
 run r:
-	#flutter run
 	./flutter_launcher	
 
 #------------------------------------------------------------------------------
