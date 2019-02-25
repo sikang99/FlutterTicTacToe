@@ -1,5 +1,5 @@
 #
-# Makefile for swig-example
+# Makefile for flutter development
 #
 all: usage
 usage:
