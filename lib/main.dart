@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tictactoe/home_page.dart';
-import 'package:flutter/foundation.dart'
-    show debugDefaultTargetPlatformOverride; // for desktop embedder
+import 'package:flutter/foundation.dart' show debugDefaultTargetPlatformOverride; // for desktop embedder
 
 //void main() => runApp(new MyApp());
 void main() {
