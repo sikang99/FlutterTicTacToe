@@ -30,7 +30,7 @@ git g:
 	@echo ""
 
 git-update gu:
-	git add *
+	git add * lib/
 	git commit -m "initial update commit"
 	git push -u origin master 
 
