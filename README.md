@@ -1,8 +1,11 @@
-# Flutter TicTacToe Game
+# Flutter TicTacToe Game (Testing)
 
 ## Work Progress
 - 2019/02/25 fork [iampawan/FlutterTicTacToe](https://github.com/iampawan/FlutterTicTacToe) and modify it to run the app by using linux launcher
 - 2019/02/24 learn how to use [putraxor/flutter_desktop_launcher](https://github.com/putraxor/flutter_desktop_launcher)
+
+## References
+- [sikang99/flutter-desktop](https://github.com/sikang99/flutter-desktop) - Information for Flutter desktop development
 
 
 
