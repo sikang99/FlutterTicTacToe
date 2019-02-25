@@ -9,8 +9,8 @@ edit e:
 	vi lib/main.dart
 
 unzip:
-	unzip linux_launcher.zip
-	#unzip macos_launcher.zip
+	unzip launcher/linux_launcher.zip
+	#unzip launcher/macos_launcher.zip
 
 build b:
 	flutter packages get
@@ -30,7 +30,7 @@ git g:
 	@echo ""
 
 git-update gu:
-	git add *.md Makefile lib/ android/ ios .vscode/
+	git add *.md Makefile launcher/ lib/ android/ ios .vscode/
 	git commit -m "initial update commit"
 	git push -u origin master 
 
