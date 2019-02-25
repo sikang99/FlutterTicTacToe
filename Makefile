@@ -35,7 +35,7 @@ git-update gu:
 	git push -u origin master 
 
 git-remove gr:
-	git rm -r <directory>
+	git rm -r <path>
 	git commit -m "Remove duplicated directory"
 	git push origin master
 
